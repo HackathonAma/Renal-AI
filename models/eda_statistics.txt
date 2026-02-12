@@ -1,0 +1,193 @@
+RAPPORT EDA FINAL - 2026-02-12 10:38:43.144371
+Dimensions : (308, 201)
+Colonnes numériques : 87
+
+DISTRIBUTION CIBLE :
+Stage de l'IRC
+CKD 5     60
+CKD 2     52
+CKD 4     50
+CKD 3a    49
+CKD 3b    49
+CKD 1     46
+
+TOP CORRELATIONS (si possible) :
+Stage de l'IRC                     1.000000
+Créatinine (mg/L)                  0.596643
+P (meq/L)                          0.583323
+Symptômes/Asthénie                 0.437996
+Symptômes/Vomissements             0.403291
+Symptômes/Insomnie                 0.327117
+Symptômes/Anémie                   0.303101
+Symptômes/Fièvre                   0.266161
+Symptômes/Toux Grave               0.261444
+Symptômes/Diarrhée                 0.259721
+Personnels Médicaux/IRC            0.254910
+Symptômes/Anorexie                 0.246797
+Symptômes/Oligurie                 0.240728
+OMI/Prenant le godet               0.232395
+Enquête Sociale/PEC non            0.221016
+Etat Général (EG)/OMI              0.216993
+Symptômes/Bouffissure du Visage    0.215680
+TA (mmHg)/Systole                  0.212931
+Symptômes/Nycturie                 0.207509
+Enquête Sociale/Alcool             0.190853
+
+STATISTIQUES DESCRIPTIVES :
+                                                                                count        mean         std     min       25%      50%      75%     max
+Age                                                                             299.0   54.685619   15.041826  18.000   43.0000   57.000   66.000    88.0
+Motif(s) d'Admission/Asthénie                                                   306.0    0.107843    0.310690   0.000    0.0000    0.000    0.000     1.0
+Motif(s) d'Admission/Altération de la fonction rénale                           306.0    0.666667    0.472177   0.000    0.0000    1.000    1.000     1.0
+Motif(s) d'Admission/HTA                                                        306.0    0.049020    0.216263   0.000    0.0000    0.000    0.000     1.0
+Motif(s) d'Admission/Œdème                                                      306.0    0.094771    0.293378   0.000    0.0000    0.000    0.000     1.0
+Motif(s) d'Admission/Diabète                                                    306.0    0.026144    0.159824   0.000    0.0000    0.000    0.000     1.0
+Motif(s) d'Admission/Douleur abdominale                                         306.0    0.016340    0.126987   0.000    0.0000    0.000    0.000     1.0
+Personnels Médicaux/HTA                                                         306.0    0.784314    0.411971   0.000    1.0000    1.000    1.000     1.0
+Personnels Médicaux/Diabète 1                                                   306.0    0.016340    0.126987   0.000    0.0000    0.000    0.000     1.0
+Personnels Médicaux/Diabète 2                                                   306.0    0.307190    0.462084   0.000    0.0000    0.000    1.000     1.0
+Personnels Médicaux/IRC                                                         306.0    0.094771    0.293378   0.000    0.0000    0.000    0.000     1.0
+Personnels Médicaux/Maladies Cardiovasculaire(Cardiopathie, AVC, preeclampsie)  306.0    0.111111    0.314784   0.000    0.0000    0.000    0.000     1.0
+Personnels Médicaux/Ulcère                                                      306.0    0.068627    0.253234   0.000    0.0000    0.000    0.000     1.0
+Personnels Médicaux/Pathologies virales (HB, HC, HIV)                           306.0    0.058824    0.235680   0.000    0.0000    0.000    0.000     1.0
+Personnels Chirurgicaux/Appendicectomie                                         306.0    0.045752    0.209288   0.000    0.0000    0.000    0.000     1.0
+Personnels Chirurgicaux/Césarienne                                              306.0    0.049020    0.216263   0.000    0.0000    0.000    0.000     1.0
+Personnels Chirurgicaux/Hystérectomie                                           306.0    0.035948    0.186465   0.000    0.0000    0.000    0.000     1.0
+Personnels Familiaux/HTA                                                        306.0    0.045752    0.209288   0.000    0.0000    0.000    0.000     1.0
+Personnels Familiaux/Diabète                                                    306.0    0.032680    0.178088   0.000    0.0000    0.000    0.000     1.0
+Enquête Sociale/Tabac                                                           306.0    0.016340    0.126987   0.000    0.0000    0.000    0.000     1.0
+Enquête Sociale/AlNS (+)                                                        306.0    0.104575    0.306506   0.000    0.0000    0.000    0.000     1.0
+Enquête Sociale/Alcool                                                          306.0    0.143791    0.351452   0.000    0.0000    0.000    0.000     1.0
+Enquête Sociale/Phytothérapie traditionnelle                                    306.0    0.267974    0.443629   0.000    0.0000    0.000    1.000     1.0
+Enquête Sociale/Epice                                                           306.0    0.029412    0.169234   0.000    0.0000    0.000    0.000     1.0
+Enquête Sociale/PEC oui                                                         306.0    0.143791    0.351452   0.000    0.0000    0.000    0.000     1.0
+Enquête Sociale/PEC non                                                         306.0    0.330065    0.471007   0.000    0.0000    0.000    1.000     1.0
+Symptômes/Fièvre                                                                306.0    0.075163    0.264087   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Frissons                                                              306.0    0.019608    0.138875   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Céphalées                                                             306.0    0.091503    0.288796   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Douleur Lombaire                                                      306.0    0.084967    0.279290   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Dysurie                                                               306.0    0.013072    0.113769   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Oligurie                                                              306.0    0.052288    0.222971   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Diarrhée                                                              306.0    0.084967    0.279290   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Douleur Thoracique                                                    306.0    0.029412    0.169234   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Anorexie                                                              306.0    0.071895    0.258738   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Anémie                                                                306.0    0.081699    0.274355   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Nausées                                                               306.0    0.058824    0.235680   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Douleur abdominale                                                    306.0    0.107843    0.310690   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Articulaire                                                           306.0    0.062092    0.241717   0.000    0.0000    0.000    0.000     1.0
+Symptômes/HTA                                                                   306.0    0.049020    0.216263   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Flou visuel                                                           306.0    0.042484    0.202020   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Asthénie                                                              306.0    0.287582    0.453376   0.000    0.0000    0.000    1.000     1.0
+Symptômes/Vomissements                                                          306.0    0.150327    0.357977   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Insomnie                                                              306.0    0.124183    0.330330   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Nycturie                                                              306.0    0.078431    0.269290   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Toux Grave                                                            306.0    0.071895    0.258738   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Détresse Respiratoire                                                 306.0    0.022876    0.149752   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Perte de poids                                                        306.0    0.035948    0.186465   0.000    0.0000    0.000    0.000     1.0
+Symptômes/Bouffissure du Visage                                                 306.0    0.062092    0.241717   0.000    0.0000    0.000    0.000     1.0
+Evolution de l'Etat Générale/Favorable                                          306.0    0.313725    0.464766   0.000    0.0000    0.000    1.000     1.0
+Evolution de l'Etat Générale/Pas Favorable                                      306.0    0.549020    0.498406   0.000    0.0000    1.000    1.000     1.0
+Evolution de l'Etat Générale/Patient Perdu de vue                               306.0    0.611111    0.488297   0.000    0.0000    1.000    1.000     1.0
+Etat Général (EG)/OMI                                                           306.0    0.330065    0.471007   0.000    0.0000    0.000    1.000     1.0
+Etat Général (EG)/Plis de déshydratation                                        306.0    0.032680    0.178088   0.000    0.0000    0.000    0.000     1.0
+Température (C°)                                                                133.0   36.278947    4.345375   0.000   36.3000   36.900   37.300    39.0
+TA (mmHg)/Systole                                                               245.0  138.391837   35.868863   9.000  123.0000  139.000  158.000   225.0
+TA (mmHg)/Diastole                                                              245.0   82.130612   23.340128   4.000   71.0000   82.000   95.000   135.0
+Poul (bpm)                                                                      237.0   81.645570   20.029028   0.000   73.0000   83.000   93.000   134.0
+Poids (Kg)                                                                      180.0   75.033333   17.974175   9.000   61.7500   73.000   87.250   125.0
+Taille (m)                                                                      138.0    2.783913   13.309580   1.430    1.5925    1.640    1.710   158.0
+FR (cpm)                                                                         74.0   23.891892   13.691881   1.000   18.0000   20.000   22.750    98.0
+OMI/Prenant le godet                                                            306.0    0.352941    0.478667   0.000    0.0000    0.000    1.000     1.0
+Score de Glasgow (/15)                                                          275.0   14.901818    0.657215   8.000   15.0000   15.000   15.000    15.0
+Glycémie à jeun (taux de Glucose)                                               219.0    1.205160    1.223654   0.470    0.8800    0.980    1.200    18.0
+Urée (g/L)                                                                      283.0    1.485756   11.323319   0.060    0.2800    0.450    0.850   189.0
+Créatinine (mg/L)                                                               306.0   43.532467   69.605698   0.000   12.0000   17.380   31.750   500.0
+Na^+ (meq/L)                                                                    271.0  138.008118    7.630844  60.000  137.0000  139.000  142.000   148.0
+K^+ (meq/L)                                                                     276.0    4.558986    3.811419   1.600    3.7325    4.100    4.500    43.0
+Ca^2+ (meq/L)                                                                   215.0   90.781581   12.073959   4.910   85.5000   92.000   98.000   120.0
+Cl^- (meq/L)                                                                    257.0  101.536693    7.793823  28.330   99.0000  102.000  105.000   119.0
+P (meq/L)                                                                       130.0   43.638615   18.777127   1.020   32.0500   38.500   51.000   106.0
+Hb (g/dL)                                                                       256.0   12.211758   11.743361   3.200    9.0000   10.900   13.025   118.0
+Hte (%)                                                                         104.0   32.680962   41.003068   9.500   22.8000   28.750   35.225   437.0
+VGM (fL)                                                                        171.0   81.390175    8.881262  39.340   76.0000   82.000   87.450   101.0
+TCMH (pg)                                                                       111.0   27.588198    5.457250  21.500   25.1000   27.000   28.410    76.2
+CCMH (%)                                                                        140.0   32.765286    1.897054  24.400   31.7750   32.900   34.100    37.0
+NB (G/L)                                                                        178.0   32.085258  314.390698   1.115    4.7000    6.150    8.500  4200.0
+PN (G/L)                                                                        101.0  101.852719  637.491224   0.322    2.8090    4.380    9.888  5041.0
+Mo (G/L)                                                                         71.0    3.202708   16.583728   0.105    0.4060    0.612    1.084   140.0
+Ly (G/L)                                                                         89.0   46.851292  277.738556   0.273    1.2180    1.668    2.890  1888.0
+Plaquettes (g/L)                                                                196.0  253.170051  109.529712   1.000  181.5000  240.500  309.000   748.0
+Pathologies/Rétinopathie hypertensive                                           306.0    0.101307    0.302229   0.000    0.0000    0.000    0.000     1.0
+Pathologies/Rétinopathie diabétique                                             306.0    0.032680    0.178088   0.000    0.0000    0.000    0.000     1.0
+Pathologies/Glaucome                                                            306.0    0.035948    0.186465   0.000    0.0000    0.000    0.000     1.0
+Rythme Cardiaque/Sinusal                                                        306.0    0.807190    0.395152   0.000    1.0000    1.000    1.000     1.0
+Causes Majeure après Diagnostic/HTA                                             306.0    0.594771    0.491740   0.000    0.0000    1.000    1.000     1.0
+Causes Majeure après Diagnostic/Diabète                                         306.0    0.271242    0.445329   0.000    0.0000    0.000    1.000     1.0
+
+VALEURS MANQUANTES (>30%) :
+Durée Diabète 1 (mois)                                      306
+Autres détails de l'Enquête Sociale à Préciser              303
+Etat Général (EG)/Autre                                     301
+Autres Antécédents Personnels Familiaux                     299
+Autres Détails de l'Examen Pleuropulmonaire                 298
+Autres Pathologies                                          298
+Pathologies/Artériosclérose                                 298
+PB (G/L)                                                    290
+Durée IRC (mois)                                            290
+Ret (g/L)                                                   289
+OMI/Remontant jusqu'au                                      284
+Autres Motifs d'Admission                                   283
+Râles crépitants                                            278
+Autre Antécédent Personnel Chirurgical                      275
+Tests Populaires/Ac HVC                                     270
+Coloration des Urines                                       261
+Tests Populaires/Ag HBs                                     256
+Hématie (T/L)                                               256
+SaO^2 (%)                                                   255
+Aspect des Urines                                           255
+Tests Populaires/VIH                                        251
+PE (G/L)                                                    248
+Protéinurie                                                 247
+Autre Symptôme à Notifier                                   244
+Protéinurie à la bandellette urinaire (g/24h)               243
+Mo (G/L)                                                    237
+FR (cpm)                                                    234
+Lieu de la Palpation/ EICG (Espace InterCostal Gauche)      228
+BU/Leucocytose                                              227
+BU/Protéinurie                                              227
+BU/Glucosurie                                               227
+BU/Nitrite                                                  227
+BU/Albuminuerie                                             227
+BU/Hématurie                                                227
+Autres Antécédents Personnels Médicaux                      226
+Durée Diabète 2 (mois)                                      224
+Ly (G/L)                                                    219
+Choc de Pointe/Palpé                                        213
+PN (G/L)                                                    207
+Hte (%)                                                     204
+Tests Populaires/PU (g/24h)                                 197
+TCMH (pg)                                                   197
+Grosseur Rein Droit                                         178
+Echogénicité                                                178
+Différenciation des reins                                   178
+Calcul Rénal                                                178
+Kyste                                                       178
+Contour régulier/Rein gauche                                178
+Contour régulier/Rein droit                                 178
+Grosseur Rein Gauche                                        178
+P (meq/L)                                                   178
+Température (C°)                                            175
+Cholestérol LDL                                             171
+IMC                                                         171
+Taille (m)                                                  170
+CCMH (%)                                                    168
+Triglycérides                                               161
+Cholestérol HDL                                             145
+Cholestérol Total                                           142
+VGM (fL)                                                    137
+Début des symptômes (mois)                                  132
+NB (G/L)                                                    130
+Poids (Kg)                                                  128
+Situation Matrimoniale                                      118
+Plaquettes (g/L)                                            112
+Durée HTA (mois)                                            110
+Ca^2+ (meq/L)                                                93

@@ -1,0 +1,26 @@
+Étapes pour le développement du Backend :
+
+1. Configuration de l'environnement :
+   - Installation de FastAPI ou Flask.
+   - Configuration de l'environnement virtuel.
+
+2. Chargement du modèle :
+   - Chargement du fichier .joblib généré par l'équipe modèle.
+   - Chargement des scalers et encodeurs.
+
+3. Création des Routes (Endpoints) :
+   - POST /predict : Pour recevoir les données patient et renvoyer le stade CKD.
+   - GET /health : Pour vérifier si le serveur est en ligne.
+
+4. Validation des données :
+   - Utilisation de Pydantic pour s'assurer que les données envoyées par le frontend sont au bon format.
+
+5. Logique de Scoring :
+   - Implémentation du calcul du score de risque composite.
+
+6. Documentation :
+   - Génération automatique de la doc (Swagger UI via FastAPI).
+7. Documentation & Journal de Décision :
+   - Expliquer le choix de l'architecture (ex: FastAPI pour la vitesse).
+   - Documenter chaque endpoint et les formats de données (JSON schemas).
+   - Tenir un log des bugs rencontrés et résolus.

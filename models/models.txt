@@ -1,0 +1,35 @@
+Étapes pour le développement du Modèle IA :
+
+1. Analyse Exploratoire des Données (EDA) :
+   - Identification des variables clés.
+   - Analyse des corrélations.
+   - Détection des valeurs aberrantes (outliers).
+
+2. Prétraitement :
+   - Imputation des valeurs manquantes (Moyenne/Médiane/Mode).
+   - Encodage des variables catégorielles (One-Hot / Label Encoding).
+   - Normalisation/Standardisation des données numériques.
+
+3. Ingénierie des Caractéristiques (Feature Engineering) :
+   - Création de nouvelles variables si nécessaire.
+   - Sélection des meilleures colonnes pour éviter le sur-apprentissage.
+
+4. Entraînement :
+   - Test de plusieurs algorithmes (Random Forest, XGBoost, CatBoost).
+   - Optimisation des hyperparamètres (Grid Search / Random Search).
+
+5. Évaluation :
+   - Calcul de la Précision, Recall, F1-Score et AUC.
+   - Matrice de confusion.
+
+6. Interprétabilité :
+   - Utilisation de SHAP pour expliquer les prédictions individuelles.
+
+7. Exportation :
+   - Sauvegarde du modèle final au format .joblib ou .pkl.
+
+8. Documentation Continue (OBLIGATOIRE) :
+   - Mise à jour en temps réel du fichier `decision_log.md` avant chaque nouvelle étape.
+   - Noter chaque choix (ex: pourquoi la médiane plutôt que la moyenne pour une colonne spécifique).
+   - Documenter les performances de chaque itération du modèle.
+   - Préparer les visuels pour le rapport technique final.

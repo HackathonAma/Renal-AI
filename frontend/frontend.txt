@@ -1,0 +1,28 @@
+Étapes pour le développement du Frontend :
+
+1. Design & Maquettage :
+   - Définition de l'expérience utilisateur (UX).
+   - Création d'un formulaire de saisie intuitif.
+
+2. Choix de l'Outil :
+   - Streamlit (Rapide, tout en Python).
+   - OU React/Vite (Moderne, pour une application plus stable).
+
+3. Intégration API :
+   - Connexion du formulaire avec les endpoints du Backend.
+   - Gestion des états de chargement.
+
+4. Visualisation des Données :
+   - Intégration de graphiques (Plotly/Chart.js) pour les facteurs de risque.
+   - Affichage clair du stade et du score de risque.
+
+5. Cartographie Interactive :
+   - Intégration de Folium ou Leaflet pour afficher les zones à risque au Bénin.
+
+6. Ergonomie (Responsive) :
+   - S'assurer que l'outil est utilisable sur PC et Tablettes.
+
+7. Documentation & Journal de Décision :
+   - Justifier les choix de design (couleurs, ergonomie).
+   - Documenter les bibliothèques utilisées pour la cartographie.
+   - Enregistrer des captures d'écran/vidéos pour les livrables finaux.

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Next.js / React
+node_modules/
+.next/
+out/
+.DS_Store
+
+# Data & Models (Optionnel : si vous voulez garder les gros modèles en local)
+# artifacts/*.joblib
+# model_assets/*.joblib
+
+# OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

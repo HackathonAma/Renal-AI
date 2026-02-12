@@ -1,0 +1,19 @@
+# Data Analysis
+pandas
+numpy
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+xgboost
+joblib
+
+# Backend
+fastapi
+uvicorn
+pydantic
+
+# Documentation & Tools
+shap
+python-multipart

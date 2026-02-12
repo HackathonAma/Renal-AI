@@ -1,0 +1,15 @@
+Quelques tips :
+
+Vous avez un grand dataset qui contient beaucoup de variables. Toutes ne sont pas forcément importantes. Vous n’êtes donc pas obligés de toutes les conserver pour la modélisation. D’où l’importance de bien mener votre analyse exploratoire.
+
+Pour la cartographie, il existe plusieurs outils de mapping que vous pouvez utiliser. Demandez conseil à vos mentors.
+
+N’hésitez pas à poser vos préoccupations ici.
+
+N’attendez pas le dernier moment pour commencer à préparer votre interface, etc. Dans un hackathon, on travaille en parallèle. C’est certes un hackathon IA, mais pendant qu’une personne travaille sur un aspect donné, une autre peut avancer sur un autre. Rappelez-vous qu’il y a plusieurs consignes à respecter.
+
+Surtout, n'oubliez pas, *Rien ne se perd, rien ne se créer, tout se transforme*. Donc fouillez sur internet des sujets pareils ont surement déjà été fait. Faites l'état de l'art  !
+
+Communiquez beaucoup !
+
+Bon courage !
