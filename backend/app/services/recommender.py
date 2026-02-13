@@ -18,7 +18,7 @@ class Recommender:
             return ["API Key manquante pour les recommandations IA.", "Veuillez configurer GEMINI_API_KEY."]
 
         prompt = f"""
-        En tant qu'expert néphrologue hospitalier, rédige 10 recommandations précises pour un patient atteint d'Insuffisance Rénale Chronique (IRC).
+        En tant qu'expert néphrologue hospitalier, rédige 10 recommandations précises pour un patient dont voici les informations:
         
         PROFIL CLINIQUE ACTUEL:
         - Diagnostic: {stage}
