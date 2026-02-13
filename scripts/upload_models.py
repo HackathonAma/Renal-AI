@@ -4,7 +4,7 @@ from huggingface_hub import HfApi
 from pathlib import Path
 
 # Configuration
-REPO_ID = "username/renal-ai-models" # À REMPLACER PAR VOTRE REPO HF
+REPO_ID = "HackathonAma/Renal-AI"
 MODEL_DIR = Path("backend/model_assets")
 HF_TOKEN = os.getenv("HF_TOKEN")
 

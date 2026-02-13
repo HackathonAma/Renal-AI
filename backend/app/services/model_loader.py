@@ -4,7 +4,7 @@ from pathlib import Path
 import shutil
 
 # Configuration
-REPO_ID = "username/renal-ai-models" # À REMPLACER PAR LE MEME REPO QUE UPLOAD
+REPO_ID = "HackathonAma/Renal-AI"
 MODEL_DIR = Path(__file__).parent.parent.parent / "model_assets"
 FILES_TO_DOWNLOAD = ["model.joblib", "scaler.joblib", "target_encoder.joblib"]
 
