@@ -1,10 +1,11 @@
 name: Model Training & Deployment Pipeline
 
 on:
+  workflow_dispatch: # Permet le lancement manuel depuis l'interface GitHub
   push:
     paths:
-      - 'models/**' # Se déclenche uniquement si on touche aux scripts d'entraînement
-      - 'backend/app/services/learning/**'
+      - 'models/**'
+      - 'backend/**' # Déclenche aussi pour les changements backend (ex: requirements.txt)
       - '.github/workflows/model_pipeline.yml'
     branches:
       - main
