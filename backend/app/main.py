@@ -21,6 +21,13 @@ app.add_middleware(
 # Initialisation de l'explainer SHAP (une fois le modèle chargé)
 explainer = Explainer(predictor.model, predictor.selected_features)
 
+from .services.model_loader import load_models_from_hf
+
+@app.on_event("startup")
+async def startup_event():
+    # Téléchargement des modèles au démarrage si nécessaire
+    load_models_from_hf()
+
 @app.get("/health")
 def health():
     return {"status": "online", "model_loaded": predictor.model is not None}

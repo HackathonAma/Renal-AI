@@ -68,7 +68,10 @@ def get_readable_name(name):
     return name.replace('_', ' ')
 
 # URL du Backend
-BACKEND_URL = "http://localhost:8000"
+try:
+    BACKEND_URL = st.secrets["general"]["backend_url"]
+except:
+    BACKEND_URL = "http://localhost:8000"  # Fallback local
 
 # Sidebar
 st.sidebar.title("🩺 CKD-Predict Expert")

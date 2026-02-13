@@ -1,0 +1,55 @@
+name: Model Training & Deployment Pipeline
+
+on:
+  push:
+    paths:
+      - 'models/**' # Se déclenche uniquement si on touche aux scripts d'entraînement
+      - 'backend/app/services/learning/**'
+      - '.github/workflows/model_pipeline.yml'
+    branches:
+      - main
+
+jobs:
+  train-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r backend/requirements.txt
+        pip install huggingface_hub joblib scikit-learn pandas numpy xgboost
+
+    # Étape 3 : Ré-entraînement (Simulation ou Réel)
+    # Ici, on suppose que vous avez un script qui génère les .joblib dans backend/model_assets
+    - name: Train Model
+      run: |
+        # python models/train.py 
+        # Pour l'instant on ne fait qu'afficher car le script n'est pas encore là
+        echo "Training model..." 
+
+    # Étape 4 : Upload vers Hugging Face
+    - name: Upload to Hugging Face
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      run: |
+        python scripts/upload_models.py
+
+    # Étape 5 : Trigger Railway Deploy
+    - name: Install Railway CLI
+      run: npm install -g @railway/cli
+
+    - name: Deploy to Railway
+      if: success()
+      env:
+        RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+      run: |
+        railway up --service backend --detach
